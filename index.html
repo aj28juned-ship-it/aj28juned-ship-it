@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhhamad Juna Edi | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 18px 8%;
+            background: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            float: right;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 25px;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            padding: 90px 10%;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #60a5fa;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .title h2 {
+            font-size: 35px;
+            color: #60a5fa;
+        }
+
+        .about {
+            background: #111827;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            color: #cbd5e1;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 12px 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #60a5fa;
+        }
+
+        .card h3 {
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .experience {
+            background: #111827;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #020617;
+            color: #64748b;
+        }
+
+        @media (max-width: 700px) {
+            nav ul {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Muhhamad Juna Edi</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+
+        <h1>Hi, I'm <span>Juna</span> 👋</h1>
+
+        <h2>Statistics Student | Data Science | GIS</h2>
+
+        <p>
+            Statistics undergraduate student at Universitas Cenderawasih
+            with a strong interest in Data Analytics, Data Science,
+            Statistical Modeling, and Spatial Analysis.
+        </p>
+
+        <a href="#projects" class="btn">View Projects</a>
+
+        <a href="https://github.com/aj28juned-ship-it"
+           class="btn btn-outline">
+            GitHub
+        </a>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+
+    <div class="title">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-content">
+
+        <p>
+            I am a Statistics student at Universitas Cenderawasih
+            with a GPA of 3.95/4.00. I enjoy working with data,
+            statistical analysis, spatial analysis, and data
+            visualization to transform data into meaningful insights.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="skills">
+
+    <div class="title">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills">
+
+        <div class="skill">Python</div>
+        <div class="skill">R</div>
+        <div class="skill">SPSS</div>
+        <div class="skill">QGIS</div>
+        <div class="skill">Data Analysis</div>
+        <div class="skill">Data Science</div>
+        <div class="skill">Statistical Modeling</div>
+        <div class="skill">Spatial Analysis</div>
+        <div class="skill">GIS</div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <div class="title">
+        <h2>Projects</h2>
+    </div>
+
+    <div class="projects">
+
+        <div class="card">
+
+            <h3>Spatial Analysis of Food Conditions</h3>
+
+            <p>
+                Application of spatial regression models and
+                K-Nearest Neighbors spatial weighting to analyze
+                food conditions in Papua.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Statistical Clustering in Papua</h3>
+
+            <p>
+                Data clustering using K-Means and DBSCAN to analyze
+                regional characteristics and basic services.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Kampung Serui Laut GIS</h3>
+
+            <p>
+                GIS-based mapping of administrative boundaries,
+                facilities, infrastructure, and village potential.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Data Science Projects</h3>
+
+            <p>
+                Data analysis and machine learning projects using
+                Python, R, and statistical methods.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="experience" class="experience">
+
+    <div class="title">
+        <h2>Experience</h2>
+    </div>
+
+    <div class="projects">
+
+        <div class="card">
+
+            <h3>Research Assistant</h3>
+
+            <p>
+                BESTARI SAINTEK / Numeracy Living Lab
+                <br>
+                Arso Barat, Keerom, Papua — 2026
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Internship</h3>
+
+            <p>
+                Dinas Ketahanan Pangan Provinsi Papua
+                <br>
+                Finance / Distribution / Food Vulnerability Division
+                <br>
+                June – July 2026
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Head of Academic Division</h3>
+
+            <p>
+                HIMASTAT
+                <br>
+                2025 – Present
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="title">
+        <h2>Contact</h2>
+    </div>
+
+    <p>
+        Email:
+        <a href="mailto:aj28juned@gmail.com">
+            aj28juned@gmail.com
+        </a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/muhhamadjunaedi">
+            linkedin.com/in/muhhamadjunaedi
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/aj28juned-ship-it">
+            github.com/aj28juned-ship-it
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    © 2026 Muhhamad Juna Edi. All Rights Reserved.
+</footer>
+
+</body>
+</html>
