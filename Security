@@ -1,0 +1,32 @@
+# Security Policy
+
+## Supported Versions
+
+This repository is a personal portfolio and contains projects developed for academic, research, and learning purposes.
+
+Security updates will be considered for the current version of the projects maintained in this repository.
+
+| Version        | Supported          |
+| -------------- | ------------------ |
+| Latest         | :white_check_mark: |
+| Older versions | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability or security-related issue in any project in this repository, please report it responsibly.
+
+Please contact me through:
+
+* **Email:** [aj28juned@gmail.com](mailto:aj28juned@gmail.com)
+* **LinkedIn:** linkedin.com/in/muhhamadjunaedi
+
+When reporting an issue, please provide:
+
+1. A brief description of the vulnerability.
+2. Steps to reproduce the issue, if applicable.
+3. The potential impact of the vulnerability.
+4. Any additional information that may help with investigation.
+
+I will review the report and respond as soon as reasonably possible.
+
+Please avoid publicly disclosing the vulnerability before it has been reviewed and addressed.
